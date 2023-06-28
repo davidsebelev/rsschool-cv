@@ -3,7 +3,7 @@
 - Location: Karaganda, Kazakhstan
 - Phone: +77756792345
 - Email: david.seberev@mail.ru
-- Github: davidsebelev
+- Github: [davidsebelev](https://github.com/davidsebelev)
 ## **About me**
 I have a good skills in working with css and html, also i really want to know how js works and i want to learn this programming language.
 ## **Skills**
