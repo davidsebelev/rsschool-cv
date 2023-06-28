@@ -15,8 +15,8 @@ I never worked with js,thats why i cant write code example
 ## **Education**
 - School: Gymnasium 93
 - Courses: 
-Hexlet
-Terricon school
+[Hexlet](https://ru.hexlet.io/courses/layout-designer-basics/lessons/devtools/theory_unit)
+[Terricon school](https://terriconschool.kz/ru/frontend)
 ## **English**
 B1 (I learned english half time of my life and intermidiate its my level of english)
 
