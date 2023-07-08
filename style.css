@@ -1,3 +1,15 @@
-body{
-    margin: 0;
+.main{
+   max-width: 1600px;
+    margin: auto;
+}
+.section-wrapper-name{
+    border: solid 1px red;
+    width: 1520;
+}
+.my-name{
+    font-size: 100px;
+}
+.section-wrapper-name-photo{
+    width: 200px;
+    height: 200px;
 }
