@@ -1,10 +1,15 @@
 * {
     box-sizing: border-box;
 }
-.main{
-   max-width: 1600px;
-    margin: auto;
-}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 .section-wrapper-name{
     border: solid 1px red;
     width: 1520;
