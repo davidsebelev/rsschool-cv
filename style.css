@@ -26,14 +26,10 @@ body {
   line-height: 50px;
 }
 .section-wrapper-name {
-  /* border: solid 1px red; */
   width: 1500px;
   flex-direction: row;
   display: flex; 
 }
-/* .section-wrapper-about-me {
-  border: 1px solid yellow;
-} */
 .section-wrapper-about-me-text {
   font-size: 20px;
 }
@@ -59,9 +55,13 @@ h2 {
   font-family: "Abril Fatface", cursive;
   font-family: "Roboto Slab", serif;
 }
-/* .section-courses-wrapper {
-  border: 1px solid blue;
-} */
 .test{
     display: block;
+}
+.section-education-english-projects-wrapper{
+    border: 1px solid burlywood;
+    width: auto;
+    display:flex ;
+    height: 300px;
+    flex-direction: column;
 }
