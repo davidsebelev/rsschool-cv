@@ -8,8 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: black;
-  color: aliceblue;
+  background-color: aliceblue;
+  color: black;
 }
 .container {
   max-width: 1440px;
@@ -28,7 +28,7 @@ body {
 .section-wrapper-name {
   width: 1500px;
   flex-direction: row;
-  display: flex; 
+  display: flex;
 }
 .section-wrapper-about-me-text {
   font-size: 20px;
@@ -40,28 +40,47 @@ body {
   width: 300px;
   height: 300px;
   margin: 0 50px 0 50px;
-  
 }
-.section-contacts-skills-wrapper{
-    border: 1px solid burlywood;
-    width: auto;
-    display:flex ;
-    height: 200px;
-    flex-direction: row;
-    justify-content: space-around;
-
+.section-contacts-skills-wrapper {
+    border: 4px solid burlywood;
+  width: auto;
+  display: flex;
+  height: 200px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:0 0 20px 0;
 }
 h2 {
   font-family: "Abril Fatface", cursive;
   font-family: "Roboto Slab", serif;
 }
-.test{
-    display: block;
+.test-block-item {
+  display: block;
 }
-.section-education-english-projects-wrapper{
-    border: 1px solid burlywood;
-    width: auto;
-    display:flex ;
-    height: 300px;
-    flex-direction: column;
+.section-education-english-projects-wrapper {
+    border: 4px solid burlywood;
+  width: auto;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+}
+.footer {
+    border: 4px solid burlywood;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-rs-school-photo {
+  width: 100px;
+  height: 100px;
+}
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.nav-list-wrapper{
+    border: 4px solid burlywood;
 }

@@ -18,7 +18,7 @@
     <main class="main">
       <div class="container">
         <header>
-          <nav class="nav">
+          <nav class="nav-list-wrapper">
             <ul class="nav-list">
               <li class="nav-item">
                 <a href="#contacts" class="nav-link">Contacts</a>
@@ -52,7 +52,7 @@
             class="section-wrapper-name-photo"
           />
           <section class="section-wrapper-about-me">
-            <h2>Summary</h2>
+            <h2 id="summary">Summary</h2>
             <p class="section-wrapper-about-me-text">
               I have a good skills in working with css and html, also i really
               want to know how js works and i want to learn this programming
@@ -63,16 +63,15 @@
           </section>
         </section>
         <section class="section-contacts-skills-wrapper">
-          <div class="test">
-            <h2 id="#contacts">Contacts</h2>
+          <div class="test-block-item">
+            <h2 id="contacts">Contacts</h2>
             <ul>
               <li>Location: Karaganda, Kazakhstan</li>
               <li>Phone: +77756792345</li>
               <li>Email: david.seberev@mail.ru</li>
               <li>
-                Github:<a href="https://github.com/davidsebelev"
-                  >davidsebelev</a
-                >
+                Github:<a href="https://github.com/davidsebelev"></a>
+                  davidsebelev</a>
               </li>
             </ul>
           </div>
@@ -89,42 +88,43 @@
               <li>
                 Code Basics-<a
                   href="https://code-basics.com/ru/languages/javascript"
-                  >JS for beginners</a
+                >
+                  JS for beginners</a
                 >
               </li>
               <li>
-                Code Basics-<a href="https://code-basics.com/ru/languages/html"
-                  >HTML for beginners</a
+                Code Basics-<a href="https://code-basics.com/ru/languages/html">
+                  HTML for beginners</a
                 >
               </li>
               <li>
                 Terricon valley-
-                <a href="https://terriconschool.kz/ru/frontend"
-                  >Introduction to Frontend Development</a
+                <a href="https://terriconschool.kz/ru/frontend">
+                  Introduction to Frontend Development</a
                 >
               </li>
             </ul>
           </section>
         </section>
         <section class="section-education-english-projects-wrapper">
-          <div class="test">
-            <h2 id="Education">Education</h2>
+          <div class="test-block-item">
+            <h2 id="education">Education</h2>
             <p>School: Gymnasium 93</p>
           </div>
           <section class="section-english-wrapper">
-            <h2 id="English">English</h2>
+            <h2 id="english">English</h2>
             <div>
               B1 (I learned english half time of my life and intermediate its my
               level of english)
             </div>
           </section>
           <section class="section-projects-wrapper">
-            <h2 id="Projects">Projects</h2>
+            <h2 id="projects">Projects</h2>
             <div>No projects yet</div>
           </section>
         </section>
         <section>
-          <h2 id="Code">Code</h2>
+          <h2 id="code">Code</h2>
           <code>
             <pre>
                 const name = 'sasha'
@@ -146,9 +146,18 @@ const propertyname = 'country'
 myCity[propertyname] = 'usa'
 
 console.log(myCity)
-</pre>
+</pre
+            >
           </code>
         </section>
+        <footer class="footer">
+          <div>@2023 davidsebelev</div>
+          <div class="footer-rs-school-photo">
+            <a href="https://rs.school/js/"
+              ><img src="/assets/svg/rs_school_js.svg" alt=""
+            /></a>
+          </div>
+        </footer>
       </div>
     </main>
   </body>
