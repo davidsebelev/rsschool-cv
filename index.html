@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsum alias commodi explicabo ad cum distinctio dolores totam, aperiam quos, nemo fugiat! Esse, necessitatibus deleniti similique asperiores voluptas eos sit.
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <header>
+          <nav class="nav-list-wrapper">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#summary" class="nav-link">Summary</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#english" class="nav-link">English</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="section-wrapper-name">
+          <h1 class="my-name">David Sebelev</h1>
+          <img
+            src="/assets/img/IMG_0808.jpeg"
+            alt=""
+            class="section-wrapper-name-photo"
+          />
+          <section class="section-wrapper-about-me">
+            <h2 id="summary">Summary</h2>
+            <p class="section-wrapper-about-me-text">
+              I have a good skills in working with css and html, also i really
+              want to know how js works and i want to learn this programming
+              language. all my life i didn't know what i want to learn and who i
+              will be in a future, but now i understood that frontend it's my
+              dream and i want to learn it as it possible for me.
+            </p>
+          </section>
+        </section>
+        <section class="section-contacts-skills-wrapper">
+          <div class="test-block-item">
+            <h2 id="contacts">Contacts</h2>
+            <ul>
+              <li>Location: Karaganda, Kazakhstan</li>
+              <li>Phone: +77756792345</li>
+              <li>Email: david.seberev@mail.ru</li>
+              <li>
+                Github:<a href="https://github.com/davidsebelev"></a>
+                  davidsebelev</a>
+              </li>
+            </ul>
+          </div>
+          <section class="section-skills-wrapper">
+            <h2 id="skills">Skills</h2>
+            <ul>
+              <li>HTML/CSS (Basic)</li>
+              <li>JS (some basics things)</li>
+            </ul>
+          </section>
+          <section class="section-courses-wrapper">
+            <h2 id="Courses">Courses</h2>
+            <ul>
+              <li>
+                Code Basics-<a
+                  href="https://code-basics.com/ru/languages/javascript"
+                >
+                  JS for beginners</a
+                >
+              </li>
+              <li>
+                Code Basics-<a href="https://code-basics.com/ru/languages/html">
+                  HTML for beginners</a
+                >
+              </li>
+              <li>
+                Terricon valley-
+                <a href="https://terriconschool.kz/ru/frontend">
+                  Introduction to Frontend Development</a
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="section-education-english-projects-wrapper">
+          <div class="test-block-item">
+            <h2 id="education">Education</h2>
+            <p>School: Gymnasium 93</p>
+          </div>
+          <section class="section-english-wrapper">
+            <h2 id="english">English</h2>
+            <div>
+              B1 (I learned english half time of my life and intermediate its my
+              level of english)
+            </div>
+          </section>
+          <section class="section-projects-wrapper">
+            <h2 id="projects">Projects</h2>
+            <div>No projects yet</div>
+          </section>
+        </section>
+        <section>
+          <h2 id="code">Code</h2>
+          <code>
+            <pre>
+                const name = 'sasha'
+const  post = 'sfMid'
+
+const myCity = {
+    name,
+    abo: {
+        isPopular: post,
+        people: 4324
+    }
+    
+}
+myCity.popular = true
+
+myCity.language = 'russian'
+
+const propertyname = 'country'
+myCity[propertyname] = 'usa'
+
+console.log(myCity)
+</pre
+            >
+          </code>
+        </section>
+        <footer class="footer">
+          <div>@2023 davidsebelev</div>
+          <div class="footer-rs-school-photo">
+            <a href="https://rs.school/js/"
+              ><img src="/assets/svg/rs_school_js.svg" alt=""
+            /></a>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </body>
 </html>
